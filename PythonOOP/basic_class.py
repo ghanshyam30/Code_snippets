@@ -26,3 +26,34 @@ student2 = Student()
 student2.marks("Bob",66,86)
 student2.show_report()
 
+# Accessing the class variable using object
+print("School Name:",student1.school_name)
+
+# Other way to access class variable using Class name itself
+print("School Name:",Student.school_name)
+
+# Updating the class variable
+Student.school_name = "Good Coding Academy"
+# Reprint after changing the class variable
+print("School Name:",Student.school_name)
+
+# Update class variable for single object
+student1.school_name = "Bad Coding Academy"
+# Accessing the class variable using object 
+print("School Name:",student1.school_name)
+
+# Changing class variable for one object wont alter the class variable for other objects
+# Accessing the class variable using object
+print("School Name:",student2.school_name)
+
+'''
+OUTPUT
+-----------
+Total for Alen:158
+Total for Bob:152
+School Name: Bad Coding Academy
+School Name: Bad Coding Academy
+School Name: Good Coding Academy
+School Name: Bad Coding Academy
+School Name: Good Coding Academy
+'''
