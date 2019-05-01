@@ -6,3 +6,7 @@ Major examples to be covered:
 4] Types of methods - 1]Instance method 2]Class method 3] Static method
 5] Inheritance - Normal, multiple and multilevel Types
 6] 
+
+
+Release Notes -
+1] 3rd topic Types of variables are already covered in basic class example
